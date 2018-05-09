@@ -11,8 +11,7 @@ class School
     if @roster[grade] != grade
       @roster[grade] << name
     elsif @roster[grade] == grade
-      @roster[grade] = []
-      @roster[grade] << name
+      @roster[:grade] <<name
     end
   end
 end
