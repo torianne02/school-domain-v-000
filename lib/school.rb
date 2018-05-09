@@ -4,7 +4,7 @@ class School
    @roster = roster
  end
 
- def roster=(roster)
-   roster = {}
+ def hash
+   @roster.hash 
  end
 end
