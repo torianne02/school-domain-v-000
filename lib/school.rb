@@ -1,6 +1,6 @@
 class School
   attr_accessor :name, :grade
-  attr_reader :roster
+  attr_reader :roster, :name
 
  def initialize(name)
    @name = name
