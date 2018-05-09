@@ -6,6 +6,6 @@ class School
  end
 
  def hash
-   @roster.hash 
+   @roster.hash
  end
 end
