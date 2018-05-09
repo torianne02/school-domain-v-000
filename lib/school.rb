@@ -5,7 +5,4 @@ class School
    @roster ||= {}
  end
 
- def hash
-   @roster.hash
- end
 end
