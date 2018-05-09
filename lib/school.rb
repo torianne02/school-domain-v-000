@@ -2,7 +2,8 @@ class School
   attr_accessor :name, :grade
   attr_reader :roster
 
- def initialize(roster)
+ def initialize(name)
+   @name = name
    @roster ||= {}
  end
 
